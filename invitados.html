@@ -6,71 +6,68 @@
 	<link rel="shortcut icon" href="imagenes/icon.jpg">
   <meta name="description" content="Confirmación de asistencia">
   <meta name="keywords" content="casamiento, boda, invitados, invitacion">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<!--animacion-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="sass/estilo.css">
   <title>Hernan & Lara</title>	
 </head>
 <body>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <!--animacion-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="sass/estilo.css">
-	<!-- nav --> 
-	<header>
-		<div class="header">
-			<h2>H  &  L</h2>
-		</div>
-    </header>
-
-    <nav class="navbar navbar-expand-md navbar-light">
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./informacion.html">Información</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./ubicacion.html">Cómo llegar</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./invitados.html">Confirmar asistencia</a>
-              </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <section class="tituloinvitados">
-        <h2>¡Esperamos contar con vos!</h2>
-        <h4>Por favor confirmá tu asistencia aquí</h4>
-    </section>
-<div class="container-fluid formulario">
-  <form action="/action_page.php">
-    <div class="form-group">
-      <label for="email">Correo electrónico</label>
-      <input type="email" class="form-control" placeholder="Email..." id="email">
+<header>
+	<div class="header">
+		<h2>H  &  L</h2>
+	</div>
+</header>
+<!-- nav --> 
+  <nav class="navbar navbar-expand-md navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./informacion.html">Información</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./ubicacion.html">Cómo llegar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./invitados.html">Confirmar asistencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contacto.html">Contacto</a>
+        </li>
+      </ul>
     </div>
-    <div class="form-group">
-      <label for="usr">Nombre:</label>
-      <input type="text" class="form-control" placeholder="Tu nombre" id="usr">
-    </div>
-    <div class="form-group">
-      <label for="usr">Apellido</label>
+  </nav>
+
+  <section class="tituloinvitados">
+    <h2>¡Esperamos contar con vos!</h2>
+    <h4>Por favor confirmá tu asistencia aquí</h4>
+  </section>
+
+  <div class="container-fluid formulario">
+    <form action="/action_page.php">
+      <div class="form-group">
+        <label for="email">Correo electrónico</label>
+        <input type="email" class="form-control" placeholder="Email..." id="email">
+      </div>
+      <div class="form-group">
+        <label for="usr">Nombre:</label>
+        <input type="text" class="form-control" placeholder="Tu nombre" id="usr">
+      </div>
+      <div class="form-group">
+        <label for="usr">Apellido</label>
         <input type="text" class="form-control" placeholder="Tu apellido" id="srn">
-    </div>
-    <div class="form-group">
-      <label for="comment">Comentario para los novios:</label>
+      </div>
+      <div class="form-group">
+        <label for="comment">Comentario para los novios:</label>
         <textarea class="form-control" rows="5" placeholder="¡Escribe algo!" id="comment"></textarea>
-    </div>
-      <h6>¿Vienes acompañado?</h6>
+      </div>
+    <h6>¿Vienes acompañado?</h6>
     <div class="form-check-inline">
       <label class="form-check-label">
         <input type="checkbox" class="form-check-input" value="">Sí
@@ -84,7 +81,6 @@
     <button type="submit" class="btn btn-primary">Enviar</button>
   </form>
 </div>
-
 
 <footer id="footer">
   <h2 class="footertext">Hernán & Lara</h2>
