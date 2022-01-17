@@ -92,7 +92,7 @@
 }
 
 .formulario {
-  background-image: url(/imagenes/form.jpg);
+  background-image: url(./imagenes/form.jpg);
   text-align: center;
   font-family: 'Roboto';
   font-size: 20px;
@@ -104,7 +104,7 @@
 }
 
 .textinfo {
-  background-image: url(../imagenes/form.jpg);
+  background-image: url(./imagenes/form.jpg);
   font-family: 'Enriqueta', 'Serif';
   text-align: center;
   font-size: 20px;
