@@ -1,0 +1,26 @@
+.tituloubicacion{
+    padding: 0.5%;
+    font-family: 'Enriqueta', 'serif';
+    text-align: center;
+    background-color: #132a13;
+    color: white;
+}
+
+.mapa{
+    padding-left: 2%;
+}
+.referencia{
+    background-color: #e9f5db;
+    color:#132a13;
+    font-family: 'Enriqueta', 'serif';
+    font-size: 20px;
+    padding:4%;
+    text-align: center;
+& .salon{
+    background-color: #132a13;
+    color: antiquewhite;
+    font-family: 'Roboto';
+    font-size: 30px;
+    padding:  1%;   
+}
+}
