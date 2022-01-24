@@ -43,15 +43,21 @@
     padding: 2%;
     text-align: center;
 }
-#footer{
-    width: 100%;
-    background-color: #A6929F;
-    font-family: 'Enriqueta', serif;
+.footer {
+    background-color: #e9f5db;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 7%;
     padding-right: 0;
     text-align: left;
+}
+.footer2 {
+    background-color: #e9f5db;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 7%;
+    padding-left: 0;
+    word-spacing: 10px;
 }
 /*fin pagina inicio*/
 @import "ubicacion";
